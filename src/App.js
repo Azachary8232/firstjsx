@@ -1,5 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
+
+import MyNewComponent from './components/MyNewComponents';
+
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <li>Run a marathon</li>
         <li>Feed the dogs</li>
       </ul>
+      <MyNewComponent  someText={"Hello World"}/>
+      <MyNewComponent  someText={"Goodbye World"}/>
     </div>
   );
 }
