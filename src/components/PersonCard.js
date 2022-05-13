@@ -7,6 +7,7 @@ class PersonCard extends Component{
                 <h1>{this.props.lastName}, {this.props.firstName}</h1>
                 <p>{this.props.age}</p>
                 <p>{this.props.hairColor}</p>
+                {this.props.children}
             </div>
         );
     }
