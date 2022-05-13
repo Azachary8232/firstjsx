@@ -8,6 +8,7 @@ class PersonCard extends Component{
                 <p>{this.props.age}</p>
                 <p>{this.props.hairColor}</p>
                 {this.props.children}
+                <button onClick={ () => alert("This button has been clicked!")}>Click Me!</button>
             </div>
         );
     }
