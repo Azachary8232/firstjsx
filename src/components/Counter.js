@@ -10,7 +10,7 @@ const Counter = (props) => {
 
     return (
         <div>
-            { count}
+            {count}
             <button onClick={ handleClick }>Click Me</button>
         </div>
 
